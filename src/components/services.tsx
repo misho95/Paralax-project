@@ -4,8 +4,8 @@ const Services = () => {
       id="services"
       className="w-full min-h-screen bg-[#003329] p-5 flex flex-col gap-3"
     >
-      <h1 className="text-[50px] text-white/75">Services</h1>
-      <p className="text-white/50">
+      <h1 className="text-[50px] text-white/75 p-5">Services</h1>
+      <p className="text-white/50 p-1 indent-[20px]">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
         vero. Dolores cupiditate tenetur asperiores temporibus beatae quaerat
         dolor natus, eligendi quo laboriosam alias quasi itaque debitis adipisci

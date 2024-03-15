@@ -78,17 +78,14 @@ const Home = () => {
   ];
 
   return (
-    <div
-      id="home"
-      className=" w-full h-[210px] sm:h-[480px] md:h-[550px] lg:h-screen relative overflow-hidden"
-    >
+    <div id="home" className=" w-full h-screen relative overflow-hidden">
       {Images.map((i, index) => {
         return (
           <animated.img
             style={i.animate ? i.animate : {}}
             key={index}
             src={i.src}
-            className={`absolute w-full pointer-events-none left-0 top-0 ${
+            className={`absolute w-full h-screen pointer-events-none left-0 top-0 object-cover object-right  ${
               i.onTop ? "z-20" : ""
             }`}
           />
