@@ -23,7 +23,7 @@ export const links = [
 ];
 
 const Header = () => {
-  const [{ y }, scrollTo] = useWindowScroll();
+  const [{ y }] = useWindowScroll();
   const prevY = usePrevious(y);
   const [hidden, setHidden] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
